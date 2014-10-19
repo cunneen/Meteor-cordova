@@ -19,7 +19,7 @@ Package.on_use(function (api) {
 });
 
 Package.on_test(function(api) {
-  api.use('cordova', ['client']);
+  api.use('cordova-meteor', ['client']);
   api.use('test-helpers', 'client');
   api.use(['tinytest', 'underscore', 'ejson', 'ordered-dict',
            'random', 'deps']);
